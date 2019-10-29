@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project default="build" basedir=".">	
+	<property name="src" value="src"/>         
+		<property name="dest" value="classes">
+		</property>	
+	<property name="jar_name" value="myTest.jar"/>	
+	<property name="lib.dir" value="lib" />
+	<property name="report folder" value="report" />
+	<path id="classpath">
+			<fileset dir="${lib.dir}" includes="**/*.jar" />
+		</path>
+	<target name="init"> 	  
+		<mkdir dir="${dest}"/>	
+	</target>         
+	<target name="report init">
+				<mkdir dir="${report folder}" />
+				<echo>创建测试报告文件夹 成功!</echo>
+			</target>
+	<target name="clean" >		 
+			<delete dir="${dest}">
+			</delete> 		
+				<delete file="${jar_name}"/>	
+		</target>       
+	<target name="compile" depends="clean,init">          
+		<javac srcdir="${src}" destdir="${dest}" classpathref="classpath" encoding="GBK"/>     
+		<echo>编译文件 成功!</echo>
+	</target>       
+	<target name="build" depends="compile">          
+		<jar jarfile="${jar_name}"  basedir="${dest}"/>       
+	</target> 
+	<target name="run" >          
+		<java classname="test_apache_commons_codec.test1" classpath="${jar_name}"/> 
+	</target>
+	
+	<target name="junitTest" depends="build">
+		<junit printsummary="on" fork="true" showoutput="true">
+			<classpath>
+				<fileset dir="${lib.dir}" includes="**/*.jar" />
+				<pathelement path="${dest}" />
+			</classpath>
+			<formatter type="xml" />
+			<batchtest todir="${report folder}">
+				<fileset dir="${dest}">
+					<include name="**/*Test*.*" />
+				</fileset>
+			</batchtest>
+		</junit>
+		<junitreport todir="${report folder}">
+			<fileset dir="${report folder}">
+				<include name="TEST-*.xml" />
+			</fileset>
+			<report format="frames" todir="${report folder}" />
+		</junitreport>
+	</target>
+</project>

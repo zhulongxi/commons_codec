@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="1" failures="0" hostname="DESKTOP-20MGK2D" id="0" name="AllTests" package="apache_commons_codec" skipped="0" tests="1" time="0.146" timestamp="2019-10-29T02:40:05">
+      <properties>
+          <property name="sun.desktop" value="windows" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="ant.library.dir" value="C:\Users\Administrator\.p2\pool\plugins\org.apache.ant_1.10.5.v20190526-1402\lib" />
+
+          <property name="java.specification.version" value="11" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="GBK" />
+
+          <property name="java.class.path" value="E:\workspace2\apache_commons_codec\lib\commons-codec-1.13-javadoc.jar;E:\workspace2\apache_commons_codec\lib\commons-codec-1.13-sources.jar;E:\workspace2\apache_commons_codec\lib\commons-codec-1.13-test-sources.jar;E:\workspace2\apache_commons_codec\lib\commons-codec-1.13-tests.jar;E:\workspace2\apache_commons_codec\lib\commons-codec-1.13.jar;E:\workspace2\apache_commons_codec\lib\junit.jar;E:\workspace2\apache_commons_codec\lib\org.hamcrest.core_1.3.0.v201303031735.jar;E:\workspace2\apache_commons_codec\classes;E:\workspace2\apache_commons_codec;E:\JDK\jdk-11.0.2_windows-x64_bin (3)\jdk-11.0.2\lib;C:\Users\Administrator\.p2\pool\plugins\org.apache.ant_1.10.5.v20190526-1402\lib\ant-launcher.jar;C:\Users\Administrator\.p2\pool\plugins\org.apache.ant_1.10.5.v20190526-1402\lib\ant.jar;C:\Users\Administrator\.p2\pool\plugins\org.apache.ant_1.10.5.v20190526-1402\lib\ant-junit.jar;C:\Users\Administrator\.p2\pool\plugins\org.apache.ant_1.10.5.v20190526-1402\lib\ant-junit4.jar" />
+
+          <property name="dest" value="classes" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="user.variant" value="" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="java.vm.specification.version" value="11" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="user.country" value="CN" />
+
+          <property name="sun.boot.library.path" value="E:\JDK\jdk-11.0.2_windows-x64_bin (3)\jdk-11.0.2\bin" />
+
+          <property name="report folder" value="report" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner apache_commons_codec.AllTests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\workspace2\apache_commons_codec\report\TEST-apache_commons_codec.AllTests.xml crashfile=E:\workspace2\apache_commons_codec\junitvmwatcher18019538999442924187.properties propsfile=E:\workspace2\apache_commons_codec\junit4038218666375327689.properties" />
+
+          <property name="jdk.debug" value="release" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="user.home" value="C:\Users\Administrator" />
+
+          <property name="user.language" value="zh" />
+
+          <property name="eclipse.pdebuild.templates" value="C:\Users\Administrator\.p2\pool\plugins\org.eclipse.pde.build_3.10.500.v20190620-0530\templates" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.version.date" value="2019-01-15" />
+
+          <property name="java.home" value="E:\JDK\jdk-11.0.2_windows-x64_bin (3)\jdk-11.0.2" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="basedir" value="E:\workspace2\apache_commons_codec" />
+
+          <property name="eclipse.pdebuild.home" value="C:\Users\Administrator\.p2\pool\plugins\org.eclipse.pde.build_3.10.500.v20190620-0530\." />
+
+          <property name="java.vm.compressedOopsMode" value="32-bit" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="ant.java.version" value="11" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="jar_name" value="myTest.jar" />
+
+          <property name="user.script" value="" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="java.runtime.version" value="11.0.2+9-LTS" />
+
+          <property name="user.name" value="Administrator" />
+
+          <property name="ant.file" value="E:\workspace2\apache_commons_codec\build.xml" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="file.encoding" value="GBK" />
+
+          <property name="ant.project.invoked-targets" value="report init,junitTest" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="java.vendor.version" value="18.9" />
+
+          <property name="ant.core.lib" value="C:\Users\Administrator\.p2\pool\plugins\org.apache.ant_1.10.5.v20190526-1402\lib\ant.jar" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/" />
+
+          <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\" />
+
+          <property name="src" value="src" />
+
+          <property name="java.version" value="11.0.2" />
+
+          <property name="user.dir" value="E:\workspace2\apache_commons_codec" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="ant.home" value="C:\Users\Administrator\.p2\pool\plugins\org.apache.ant_1.10.5.v20190526-1402" />
+
+          <property name="lib.dir" value="lib" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.5 compiled on July 10 2018" />
+
+          <property name="java.library.path" value="E:\JDK\jdk-11.0.2_windows-x64_bin (3)\jdk-11.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:/JDK/jdk-11.0.2_windows-x64_bin (3)/jdk-11.0.2/bin/server;E:/JDK/jdk-11.0.2_windows-x64_bin (3)/jdk-11.0.2/bin;E:\anaconda3;E:\anaconda3\Library\mingw-w64\bin;E:\anaconda3\Library\usr\bin;E:\anaconda3\Library\bin;E:\anaconda3\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;E:\JDK\jdk-11.0.2_windows-x64_bin (3)\jdk-11.0.2\bin;E:\JDK\jdk-11.0.2_windows-x64_bin (3)\jdk-11.0.2\jre\bin;C:\Program Files\LLVM\bin;C:\WINDOWS\System32\OpenSSH\;C:\Users\Administrator\AppData\Local\Android\Sdk\platform-tools;E:\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;E:\NASM;E:\Rational Rose\common;E:\IDM download\apache-maven-3.6.2-bin\apache-maven-3.6.2\bin;E:\IDM download\apache-ant-1.10.7-bin\apache-ant-1.10.7\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37-32\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\Microsoft VS Code\bin;E:\Bandizip\;D:\IntelliJ IDEA 2019.1.2\bin;C:\Program Files (x86)\Google\Chrome\Application;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;E:\jee-2019-09\eclipse;;." />
+
+          <property name="eclipse.pdebuild.scripts" value="C:\Users\Administrator\.p2\pool\plugins\org.eclipse.pde.build_3.10.500.v20190620-0530\scripts" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="java.vm.version" value="11.0.2+9-LTS" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="java.class.version" value="55.0" />
+
+          <property name="ant.project.default-target" value="build" />
+
+      </properties>
+
+      <testcase classname="apache_commons_codec.commons_codec" name="initializationError" time="0.005">
+          <error message="No runnable methods" type="java.lang.Exception">java.lang.Exception: No runnable methods
+	at apache_commons_codec.AllTests.suite(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="DESKTOP-20MGK2D" id="1" name="commons_codecTest" package="apache_commons_codec" skipped="0" tests="4" time="0.151" timestamp="2019-10-29T02:40:06">
+      <properties>
+          <property name="sun.desktop" value="windows" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="ant.library.dir" value="C:\Users\Administrator\.p2\pool\plugins\org.apache.ant_1.10.5.v20190526-1402\lib" />
+
+          <property name="java.specification.version" value="11" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="GBK" />
+
+          <property name="java.class.path" value="E:\workspace2\apache_commons_codec\lib\commons-codec-1.13-javadoc.jar;E:\workspace2\apache_commons_codec\lib\commons-codec-1.13-sources.jar;E:\workspace2\apache_commons_codec\lib\commons-codec-1.13-test-sources.jar;E:\workspace2\apache_commons_codec\lib\commons-codec-1.13-tests.jar;E:\workspace2\apache_commons_codec\lib\commons-codec-1.13.jar;E:\workspace2\apache_commons_codec\lib\junit.jar;E:\workspace2\apache_commons_codec\lib\org.hamcrest.core_1.3.0.v201303031735.jar;E:\workspace2\apache_commons_codec\classes;E:\workspace2\apache_commons_codec;E:\JDK\jdk-11.0.2_windows-x64_bin (3)\jdk-11.0.2\lib;C:\Users\Administrator\.p2\pool\plugins\org.apache.ant_1.10.5.v20190526-1402\lib\ant-launcher.jar;C:\Users\Administrator\.p2\pool\plugins\org.apache.ant_1.10.5.v20190526-1402\lib\ant.jar;C:\Users\Administrator\.p2\pool\plugins\org.apache.ant_1.10.5.v20190526-1402\lib\ant-junit.jar;C:\Users\Administrator\.p2\pool\plugins\org.apache.ant_1.10.5.v20190526-1402\lib\ant-junit4.jar" />
+
+          <property name="dest" value="classes" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="user.variant" value="" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="java.vm.specification.version" value="11" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="user.country" value="CN" />
+
+          <property name="sun.boot.library.path" value="E:\JDK\jdk-11.0.2_windows-x64_bin (3)\jdk-11.0.2\bin" />
+
+          <property name="report folder" value="report" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner apache_commons_codec.commons_codecTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\workspace2\apache_commons_codec\report\TEST-apache_commons_codec.commons_codecTest.xml crashfile=E:\workspace2\apache_commons_codec\junitvmwatcher11482520310582393834.properties propsfile=E:\workspace2\apache_commons_codec\junit11396579005621989971.properties" />
+
+          <property name="jdk.debug" value="release" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="user.home" value="C:\Users\Administrator" />
+
+          <property name="user.language" value="zh" />
+
+          <property name="eclipse.pdebuild.templates" value="C:\Users\Administrator\.p2\pool\plugins\org.eclipse.pde.build_3.10.500.v20190620-0530\templates" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.version.date" value="2019-01-15" />
+
+          <property name="java.home" value="E:\JDK\jdk-11.0.2_windows-x64_bin (3)\jdk-11.0.2" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="basedir" value="E:\workspace2\apache_commons_codec" />
+
+          <property name="eclipse.pdebuild.home" value="C:\Users\Administrator\.p2\pool\plugins\org.eclipse.pde.build_3.10.500.v20190620-0530\." />
+
+          <property name="java.vm.compressedOopsMode" value="32-bit" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="ant.java.version" value="11" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="jar_name" value="myTest.jar" />
+
+          <property name="user.script" value="" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="java.runtime.version" value="11.0.2+9-LTS" />
+
+          <property name="user.name" value="Administrator" />
+
+          <property name="ant.file" value="E:\workspace2\apache_commons_codec\build.xml" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="file.encoding" value="GBK" />
+
+          <property name="ant.project.invoked-targets" value="report init,junitTest" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="java.vendor.version" value="18.9" />
+
+          <property name="ant.core.lib" value="C:\Users\Administrator\.p2\pool\plugins\org.apache.ant_1.10.5.v20190526-1402\lib\ant.jar" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/" />
+
+          <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\" />
+
+          <property name="src" value="src" />
+
+          <property name="java.version" value="11.0.2" />
+
+          <property name="user.dir" value="E:\workspace2\apache_commons_codec" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="ant.home" value="C:\Users\Administrator\.p2\pool\plugins\org.apache.ant_1.10.5.v20190526-1402" />
+
+          <property name="lib.dir" value="lib" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.5 compiled on July 10 2018" />
+
+          <property name="java.library.path" value="E:\JDK\jdk-11.0.2_windows-x64_bin (3)\jdk-11.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:/JDK/jdk-11.0.2_windows-x64_bin (3)/jdk-11.0.2/bin/server;E:/JDK/jdk-11.0.2_windows-x64_bin (3)/jdk-11.0.2/bin;E:\anaconda3;E:\anaconda3\Library\mingw-w64\bin;E:\anaconda3\Library\usr\bin;E:\anaconda3\Library\bin;E:\anaconda3\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;E:\JDK\jdk-11.0.2_windows-x64_bin (3)\jdk-11.0.2\bin;E:\JDK\jdk-11.0.2_windows-x64_bin (3)\jdk-11.0.2\jre\bin;C:\Program Files\LLVM\bin;C:\WINDOWS\System32\OpenSSH\;C:\Users\Administrator\AppData\Local\Android\Sdk\platform-tools;E:\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;E:\NASM;E:\Rational Rose\common;E:\IDM download\apache-maven-3.6.2-bin\apache-maven-3.6.2\bin;E:\IDM download\apache-ant-1.10.7-bin\apache-ant-1.10.7\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37-32\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\Microsoft VS Code\bin;E:\Bandizip\;D:\IntelliJ IDEA 2019.1.2\bin;C:\Program Files (x86)\Google\Chrome\Application;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;E:\jee-2019-09\eclipse;;." />
+
+          <property name="eclipse.pdebuild.scripts" value="C:\Users\Administrator\.p2\pool\plugins\org.eclipse.pde.build_3.10.500.v20190620-0530\scripts" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="java.vm.version" value="11.0.2+9-LTS" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="java.class.version" value="55.0" />
+
+          <property name="ant.project.default-target" value="build" />
+
+      </properties>
+
+      <testcase classname="apache_commons_codec.commons_codecTest" name="test_md5" time="0.005" />
+
+      <testcase classname="apache_commons_codec.commons_codecTest" name="test_base64" time="0.002" />
+
+      <testcase classname="apache_commons_codec.commons_codecTest" name="test_judge_2" time="0.0" />
+
+      <testcase classname="apache_commons_codec.commons_codecTest" name="test_urlcodec" time="0.001" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>
